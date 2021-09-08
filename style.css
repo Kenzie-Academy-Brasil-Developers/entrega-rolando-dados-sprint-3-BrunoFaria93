@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    font-size: 13px;
+    padding: 0;
+}
+div{
+    width: 100%;
+    padding: 3px;
+    margin: 1px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 500px){
+    ul {
+    font-size: 16px;
+
+    }
+    div{
+        padding: 4px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
